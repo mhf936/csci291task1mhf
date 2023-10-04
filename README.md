@@ -2,12 +2,13 @@
 #include<stdio.h>
 int main(){
 int x;
-int y;
-int z;
-x=1;
-y=2;
-z=3;
-printf("%d. Purchase item  \n %d. admin mode \n %d. Exit",x,y,z)
-printf("choose one number:")
+while(1){
+printf("1. Purchase item  \n 2. admin mode \n 3. Exit");
+printf("\nplease choose an option:");
+scanf("%d",&x);
+if(x==1)
+printf("choose one of these products:\n value  product name  cost\n 1.  A  1.0dhs\n 2.  B  0.5dhs\n 3.  C  0.25dhs");
+break;
+}
 }
 
